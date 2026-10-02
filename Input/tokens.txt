@@ -1,0 +1,1 @@
+format is something:something:token(where something:something is email,pass respectively, or you can just put anything they are just useless) or token only, 
