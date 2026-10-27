@@ -29,6 +29,10 @@ python main.py
 
 Only use this with accounts you own. Automating user accounts breaks Discord's Terms of Service, so you can get accounts banned. Use at your own risk, I'm not responsible for what happens to your accounts.
 
+## Before You Run/use It
+
+make sure the useragent field in helper.json contains the actual useragent value of your browser and try to use the latest version of the chrome family because helpers/session.py uses 'chrome' in impersonate which picks the latest version of the chrome family else if you want to use any other version change the impersonate value which curl_cffi contains as well.
+
 ## License
 
 [PolyForm Noncommercial 1.0.0](LICENSE). Free for personal and noncommercial use. You can't sell it or use it commercially, and you have to keep the copyright notice.
